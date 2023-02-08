@@ -152,3 +152,12 @@ footer {
   padding: 24px;
   font-size: 14px;
 }
+/*Media queries*/
+@media(min-width: 700px){
+  :root{
+    ---background-color: url(./assets/bg-dark-pc.jpg)
+  }
+  .light{
+    ---background-color: url(./assets/bg-pc)
+  }
+}
